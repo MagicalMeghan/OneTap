@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OneTap</string>
+    <string name="gcp_client">296678668528-aicii2qado2fg5t2bbm8if39gu43eal6.apps.googleusercontent.com</string>
+    <string name="server_client">client</string>
+
+    <string name="sing_in">Sign in</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_out_button">Sign Out</string>
+    <string name="cancellation_warning">User can cancel only 3 times per session</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="auth_error_title">Auth error</string>
+    <string name="auth_error_message">Cannot find a matching credential. Make sure you have Google Account or to Sign Up first.</string>
+
+</resources>
