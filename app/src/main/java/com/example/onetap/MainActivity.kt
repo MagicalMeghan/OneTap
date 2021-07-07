@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.signUpButton).setOnClickListener { signUp() }
     }
 
+
     public override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         when (requestCode) {
@@ -111,7 +112,6 @@ class MainActivity : AppCompatActivity() {
             showMessage("Sign-in failed with error code: ", exception)
         }
     }
-
 
     private fun buildAuthenticationRequest(isSignUp: Boolean): BeginSignInRequest {
         // In order to support credentials saved with Smart Lock for Passwords
